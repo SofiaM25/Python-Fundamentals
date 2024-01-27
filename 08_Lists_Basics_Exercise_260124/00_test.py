@@ -58,3 +58,4 @@ my_list = [1, 2, 3, "Sasho", "Anatoli", 7, 12, 9]
 # print(type(name))
 
 # https://pastebin.com/PqwhU2km
+
