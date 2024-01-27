@@ -1,8 +1,8 @@
-my_list = [1, 2, 3, "Sasho", "Anatoli", 7, 12, 9]
+# my_list = [1, 2, 3, "Sasho", "Anatoli", 7, 12, 9]
 # print(my_list[-3])
 
 # my_list = ["Sasho", "Anatoli", "pesho", "Pesho"]
-
+# print("---".join(my_list)) # only for string lists
 # my_list.sort(reverse=True)
 # my_list.sort()
 # print(my_list)
