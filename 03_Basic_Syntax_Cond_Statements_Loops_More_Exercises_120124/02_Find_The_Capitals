@@ -1,0 +1,6 @@
+string_line = input()
+my_list = []
+for i in range(len(string_line)):
+    if string_line[i].isupper():
+        my_list.append(i)
+print(my_list)
