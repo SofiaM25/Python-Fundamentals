@@ -2,18 +2,17 @@
 # print(my_list[-3])
 
 # my_list = ["Sasho", "Anatoli", "pesho", "Pesho"]
-# print("---".join(my_list)) # only for string lists
-# my_list.sort(reverse=True)
-# my_list.sort()
-# print(my_list)
-
-# my_list = [1, 2, 3, "Sasho", "Anatoli", 7, 12, 9]
+# # print("---".join(my_list)) # only for string lists
+# # my_list.sort(reverse=True)
+# # my_list.sort()
+# # print(my_list)
+#
+# # my_list = [1, 2, 3, "Sasho", "Anatoli", 7, 12, 9]
 # print(sorted(my_list))
-
 # my_list.pop()
-# deleted_element = my_list.pop()
-# sum = 0
-# sum += my_list.pop()
+# # deleted_element = my_list.pop()
+# # sum = 0
+# # sum += my_list.pop()
 # print(my_list)
 # print(deleted_element)
 # print(sum)
@@ -59,3 +58,4 @@
 
 # https://pastebin.com/PqwhU2km
 
+# print("There are ", 2+32, " possibilities!", sep="--")

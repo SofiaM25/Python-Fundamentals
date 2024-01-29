@@ -1,15 +1,16 @@
-money_as_string = input().split(", ")
+money_string = input().split(", ")
 # money_as_integers = [int(money) for money in input().split(", ")]
-number_of_beggars = int(input())
-money_as_integers =[]
-for money in money_as_string:
-    money_as_integers.append(int(money))
+count_of_beggars = int(input())
+money_as_integer = []
+
+for money in money_string:
+    money_as_integer.append(int(money))
 final_sums = []
 start_index = 0
-for current_beggar in range(number_of_beggars):
-    current_beggar_sum = 0
-    for current_index in range(start_index, len(money_as_integers), number_of_beggars):
-        current_beggar_sum += money_as_integers[current_index]
-    final_sums.append(current_beggar_sum)
+for beggar in range(count_of_beggars):
+    beggar_sum = 0
+    for index in range(start_index, len(money_as_integer), count_of_beggars):
+        beggar_sum += money_as_integer[index]
+    final_sums.append(beggar_sum)
     start_index += 1
 print(final_sums)
