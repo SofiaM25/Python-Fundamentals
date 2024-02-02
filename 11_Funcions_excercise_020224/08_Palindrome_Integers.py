@@ -11,3 +11,13 @@ def palindrome_func(lst):
 list_of_palindromes = list(map(int, input().split(", ")))
 print(palindrome_func(list_of_palindromes))
 
+# def is_palindrome(num):
+#     return str(num) == str(num)[::-1]
+#
+#
+# def palindrome_function(lst):
+#     return "\n".join(["True" if is_palindrome(num) else "False" for num in lst])
+#
+#
+# list_of_palindromes = list(map(int, input().split(", ")))
+# print(palindrome_func(list_of_palindromes))
