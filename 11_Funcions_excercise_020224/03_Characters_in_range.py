@@ -2,7 +2,7 @@ def char_range(first_char, second_char):
     result = ''
 
     for i in range(ord(first_char) + 1, ord(second_char)):
-        result += chr(i) + ''
+        result += chr(i) + ' '
 
     return result
 

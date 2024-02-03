@@ -4,9 +4,9 @@ def odd_even_sum(number):
 
     for digit in str(number):
         if int(digit) % 2 == 0:
-            even_sum += digit
+            even_sum += int(digit)
         else:
-            odd_sum += digit
+            odd_sum += int(digit)
 
     return f"Odd sum = {odd_sum}, Even sum = {even_sum}"
 

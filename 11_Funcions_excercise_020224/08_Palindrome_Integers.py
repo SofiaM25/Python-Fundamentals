@@ -7,6 +7,8 @@ def palindrome_func(lst):
         else:
             result += "False\n"
 
+    return result
+
 
 list_of_palindromes = list(map(int, input().split(", ")))
 print(palindrome_func(list_of_palindromes))

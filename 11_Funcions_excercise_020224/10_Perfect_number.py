@@ -8,7 +8,7 @@ def is_perfect_number(number):
     if divisors_sum == number:
         return "We have a perfect number!"
     else:
-        return "It's not so perfect"
+        return "It's not so perfect."
 
 
 num = int(input())
