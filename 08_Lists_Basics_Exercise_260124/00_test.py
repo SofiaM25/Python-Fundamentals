@@ -9,6 +9,10 @@
 #
 # # my_list = [1, 2, 3, "Sasho", "Anatoli", 7, 12, 9]
 # print(sorted(my_list))
+
+# sort_by_index = sorted([1, 2, 3, 4, 5], reverse=True)
+# print(sort_by_index)
+
 # my_list.pop()
 # # deleted_element = my_list.pop()
 # # sum = 0
@@ -59,3 +63,4 @@
 # https://pastebin.com/PqwhU2km
 
 # print("There are ", 2+32, " possibilities!", sep="--")
+
