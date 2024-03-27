@@ -1,0 +1,1 @@
+# https://pastebin.com/DX5Jz3DX Text Processing 08/03
